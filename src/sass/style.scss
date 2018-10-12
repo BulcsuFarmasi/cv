@@ -1,3 +1,5 @@
+@import 'variables';
+
 .image {
     img {
         width:100px;
@@ -8,4 +10,12 @@
     .logo {
         width: 100px;
     }
+}
+
+h1 {
+    color: $special-color;
+}
+
+h2 {
+    @extend h1;
 }
